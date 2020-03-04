@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F91D8E1DC8C1F500E4D666 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */; };
+		9612FA491D0421C400AC0AA0 /* XYZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */; };
+		9612FA4C1D043AB300AC0AA0 /* XYZPasswordReVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */; };
+		962615931CF1E4750032B0EE /* XYZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962615921CF1E4750032B0EE /* XYZCalendarViewController.m */; };
+		964E4A4D1CFB26720012441C /* XYZItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 964E4A4C1CFB26720012441C /* XYZItemCell.m */; };
+		964E4A4F1CFB26900012441C /* XYZItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964E4A4E1CFB26900012441C /* XYZItemCell.xib */; };
+		965BAB701CD7624000908F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB6F1CD7624000908F11 /* main.m */; };
+		965BAB731CD7624000908F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB721CD7624000908F11 /* AppDelegate.m */; };
+		965BAB7B1CD7624000908F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB7A1CD7624000908F11 /* Assets.xcassets */; };
+		965BAB7E1CD7624000908F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */; };
+		965BAB8A1CD766D000908F11 /* XYZItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB891CD766D000908F11 /* XYZItem.m */; };
+		965BAB8D1CD76F0E00908F11 /* XYZItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */; };
+		965BAB901CD7702000908F11 /* XYZImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB8F1CD7702000908F11 /* XYZImageStore.m */; };
+		965BAB931CD7760300908F11 /* XYZItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB921CD7760300908F11 /* XYZItemsViewController.m */; };
+		965BAB971CD7771C00908F11 /* XYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB951CD7771C00908F11 /* XYZDetailViewController.m */; };
+		965BAB981CD7771C00908F11 /* XYZDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */; };
+		965BAB9C1CD77FBF00908F11 /* XYZDetail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */; };
+		965BAB9D1CD77FBF00908F11 /* XYZDetail2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */; };
+		96652CC11CE1CBD500426C70 /* XYZPasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */; };
+		968C5FFF1CF15D5500664D6E /* UIColor+XYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */; };
+		968C60011CF1686700664D6E /* XYZCalendarPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968C60001CF1686700664D6E /* XYZCalendarPicker.xib */; };
+		968C60041CF172C200664D6E /* XYZCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C60031CF172C200664D6E /* XYZCalendarPicker.m */; };
+		968C600D1CF1A2F000664D6E /* XYZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */; };
+		96AAD9B71D03D28700F9D639 /* XYZPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAD9B61D03D28700F9D639 /* XYZPopVC.m */; };
+		96EC12DE1CF92E4000585E66 /* XYZTvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC12DD1CF92E4000585E66 /* XYZTvc.m */; };
+		96EE05091CD87645005CE44E /* XYZDiaryPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EE05081CD87645005CE44E /* XYZDiaryPassword.m */; };
+		96EE050C1CD88D17005CE44E /* XYZDiaryPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F91D8C1DC8C1EF00E4D666 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9612FA471D0421C400AC0AA0 /* XYZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTableViewController.h; sourceTree = "<group>"; };
+		9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTableViewController.m; sourceTree = "<group>"; };
+		9612FA4A1D043AB300AC0AA0 /* XYZPasswordReVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordReVC.h; sourceTree = "<group>"; };
+		9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordReVC.m; sourceTree = "<group>"; };
+		962615911CF1E4750032B0EE /* XYZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarViewController.h; sourceTree = "<group>"; };
+		962615921CF1E4750032B0EE /* XYZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarViewController.m; sourceTree = "<group>"; };
+		964E4A4B1CFB26720012441C /* XYZItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemCell.h; sourceTree = "<group>"; };
+		964E4A4C1CFB26720012441C /* XYZItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemCell.m; sourceTree = "<group>"; };
+		964E4A4E1CFB26900012441C /* XYZItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZItemCell.xib; sourceTree = "<group>"; };
+		965BAB6B1CD7624000908F11 /* DiaryBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		965BAB6F1CD7624000908F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		965BAB711CD7624000908F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DairyBox/AppDelegate.h; sourceTree = "<group>"; };
+		965BAB721CD7624000908F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DairyBox/AppDelegate.m; sourceTree = "<group>"; };
+		965BAB7A1CD7624000908F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		965BAB7D1CD7624000908F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		965BAB7F1CD7624000908F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965BAB881CD766D000908F11 /* XYZItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItem.h; sourceTree = "<group>"; };
+		965BAB891CD766D000908F11 /* XYZItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItem.m; sourceTree = "<group>"; };
+		965BAB8B1CD76F0E00908F11 /* XYZItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemStore.h; sourceTree = "<group>"; };
+		965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemStore.m; sourceTree = "<group>"; };
+		965BAB8E1CD7702000908F11 /* XYZImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZImageStore.h; sourceTree = "<group>"; };
+		965BAB8F1CD7702000908F11 /* XYZImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZImageStore.m; sourceTree = "<group>"; };
+		965BAB911CD7760300908F11 /* XYZItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemsViewController.h; sourceTree = "<group>"; };
+		965BAB921CD7760300908F11 /* XYZItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemsViewController.m; sourceTree = "<group>"; };
+		965BAB941CD7771C00908F11 /* XYZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetailViewController.h; sourceTree = "<group>"; };
+		965BAB951CD7771C00908F11 /* XYZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetailViewController.m; sourceTree = "<group>"; };
+		965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetailViewController.xib; sourceTree = "<group>"; };
+		965BAB991CD77FBF00908F11 /* XYZDetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetail2ViewController.h; sourceTree = "<group>"; };
+		965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetail2ViewController.m; sourceTree = "<group>"; };
+		965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetail2ViewController.xib; sourceTree = "<group>"; };
+		96652CBF1CE1CBD500426C70 /* XYZPasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordStore.h; sourceTree = "<group>"; };
+		96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordStore.m; sourceTree = "<group>"; };
+		968C5FFD1CF15D5500664D6E /* UIColor+XYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYColor.h"; sourceTree = "<group>"; };
+		968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYColor.m"; sourceTree = "<group>"; };
+		968C60001CF1686700664D6E /* XYZCalendarPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZCalendarPicker.xib; sourceTree = "<group>"; };
+		968C60021CF172C200664D6E /* XYZCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarPicker.h; sourceTree = "<group>"; };
+		968C60031CF172C200664D6E /* XYZCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarPicker.m; sourceTree = "<group>"; };
+		968C600B1CF1A2F000664D6E /* XYZCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarCell.h; sourceTree = "<group>"; };
+		968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarCell.m; sourceTree = "<group>"; };
+		96AAD9B51D03D28700F9D639 /* XYZPopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPopVC.h; sourceTree = "<group>"; };
+		96AAD9B61D03D28700F9D639 /* XYZPopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPopVC.m; sourceTree = "<group>"; };
+		96EC12DC1CF92E4000585E66 /* XYZTvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTvc.h; sourceTree = "<group>"; };
+		96EC12DD1CF92E4000585E66 /* XYZTvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTvc.m; sourceTree = "<group>"; };
+		96EE05071CD87645005CE44E /* XYZDiaryPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPassword.h; sourceTree = "<group>"; };
+		96EE05081CD87645005CE44E /* XYZDiaryPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPassword.m; sourceTree = "<group>"; };
+		96EE050A1CD88D17005CE44E /* XYZDiaryPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPasswordViewController.h; sourceTree = "<group>"; };
+		96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPasswordViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965BAB681CD7624000908F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F91D8B1DC8C1DA00E4D666 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				53F91D8C1DC8C1EF00E4D666 /* MBProgressHUD.h */,
+				53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		965BAB621CD7624000908F11 = {
+			isa = PBXGroup;
+			children = (
+				53F91D8B1DC8C1DA00E4D666 /* MBProgressHUD */,
+				968C5FF61CF15B2200664D6E /* Class */,
+				965BAB851CD7635000908F11 /* Models */,
+				965BAB861CD7636600908F11 /* Views */,
+				965BAB871CD7637A00908F11 /* Controllers */,
+				965BAB6D1CD7624000908F11 /* DiaryBox */,
+				965BAB6C1CD7624000908F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965BAB6C1CD7624000908F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB6B1CD7624000908F11 /* DiaryBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965BAB6D1CD7624000908F11 /* DiaryBox */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB7A1CD7624000908F11 /* Assets.xcassets */,
+				965BAB7F1CD7624000908F11 /* Info.plist */,
+				965BAB6E1CD7624000908F11 /* Supporting Files */,
+			);
+			name = DiaryBox;
+			path = DairyBox;
+			sourceTree = "<group>";
+		};
+		965BAB6E1CD7624000908F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB6F1CD7624000908F11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		965BAB851CD7635000908F11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB881CD766D000908F11 /* XYZItem.h */,
+				965BAB891CD766D000908F11 /* XYZItem.m */,
+				965BAB8B1CD76F0E00908F11 /* XYZItemStore.h */,
+				965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */,
+				965BAB8E1CD7702000908F11 /* XYZImageStore.h */,
+				965BAB8F1CD7702000908F11 /* XYZImageStore.m */,
+				96652CBF1CE1CBD500426C70 /* XYZPasswordStore.h */,
+				96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		965BAB861CD7636600908F11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */,
+				965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */,
+				965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */,
+				96EE05071CD87645005CE44E /* XYZDiaryPassword.h */,
+				96EE05081CD87645005CE44E /* XYZDiaryPassword.m */,
+				968C60001CF1686700664D6E /* XYZCalendarPicker.xib */,
+				968C60021CF172C200664D6E /* XYZCalendarPicker.h */,
+				968C60031CF172C200664D6E /* XYZCalendarPicker.m */,
+				968C600B1CF1A2F000664D6E /* XYZCalendarCell.h */,
+				968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */,
+				964E4A4B1CFB26720012441C /* XYZItemCell.h */,
+				964E4A4C1CFB26720012441C /* XYZItemCell.m */,
+				964E4A4E1CFB26900012441C /* XYZItemCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		965BAB871CD7637A00908F11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				965BAB711CD7624000908F11 /* AppDelegate.h */,
+				965BAB721CD7624000908F11 /* AppDelegate.m */,
+				965BAB911CD7760300908F11 /* XYZItemsViewController.h */,
+				965BAB921CD7760300908F11 /* XYZItemsViewController.m */,
+				965BAB941CD7771C00908F11 /* XYZDetailViewController.h */,
+				965BAB951CD7771C00908F11 /* XYZDetailViewController.m */,
+				965BAB991CD77FBF00908F11 /* XYZDetail2ViewController.h */,
+				965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */,
+				96EE050A1CD88D17005CE44E /* XYZDiaryPasswordViewController.h */,
+				96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */,
+				962615911CF1E4750032B0EE /* XYZCalendarViewController.h */,
+				962615921CF1E4750032B0EE /* XYZCalendarViewController.m */,
+				96EC12DC1CF92E4000585E66 /* XYZTvc.h */,
+				96EC12DD1CF92E4000585E66 /* XYZTvc.m */,
+				96AAD9B51D03D28700F9D639 /* XYZPopVC.h */,
+				96AAD9B61D03D28700F9D639 /* XYZPopVC.m */,
+				9612FA471D0421C400AC0AA0 /* XYZTableViewController.h */,
+				9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */,
+				9612FA4A1D043AB300AC0AA0 /* XYZPasswordReVC.h */,
+				9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		968C5FF61CF15B2200664D6E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				968C5FFD1CF15D5500664D6E /* UIColor+XYColor.h */,
+				968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965BAB6A1CD7624000908F11 /* DiaryBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965BAB821CD7624000908F11 /* Build configuration list for PBXNativeTarget "DiaryBox" */;
+			buildPhases = (
+				965BAB671CD7624000908F11 /* Sources */,
+				965BAB681CD7624000908F11 /* Frameworks */,
+				965BAB691CD7624000908F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaryBox;
+			productName = DairyBox;
+			productReference = 965BAB6B1CD7624000908F11 /* DiaryBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965BAB631CD7624000908F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "～^～^～";
+				TargetAttributes = {
+					965BAB6A1CD7624000908F11 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = X63BHG6JTQ;
+					};
+				};
+			};
+			buildConfigurationList = 965BAB661CD7624000908F11 /* Build configuration list for PBXProject "DiaryBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 965BAB621CD7624000908F11;
+			productRefGroup = 965BAB6C1CD7624000908F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965BAB6A1CD7624000908F11 /* DiaryBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965BAB691CD7624000908F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965BAB9D1CD77FBF00908F11 /* XYZDetail2ViewController.xib in Resources */,
+				965BAB981CD7771C00908F11 /* XYZDetailViewController.xib in Resources */,
+				965BAB7E1CD7624000908F11 /* LaunchScreen.storyboard in Resources */,
+				965BAB7B1CD7624000908F11 /* Assets.xcassets in Resources */,
+				964E4A4F1CFB26900012441C /* XYZItemCell.xib in Resources */,
+				968C60011CF1686700664D6E /* XYZCalendarPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965BAB671CD7624000908F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C60041CF172C200664D6E /* XYZCalendarPicker.m in Sources */,
+				962615931CF1E4750032B0EE /* XYZCalendarViewController.m in Sources */,
+				96EE050C1CD88D17005CE44E /* XYZDiaryPasswordViewController.m in Sources */,
+				965BAB8D1CD76F0E00908F11 /* XYZItemStore.m in Sources */,
+				965BAB731CD7624000908F11 /* AppDelegate.m in Sources */,
+				965BAB901CD7702000908F11 /* XYZImageStore.m in Sources */,
+				96EE05091CD87645005CE44E /* XYZDiaryPassword.m in Sources */,
+				965BAB971CD7771C00908F11 /* XYZDetailViewController.m in Sources */,
+				96AAD9B71D03D28700F9D639 /* XYZPopVC.m in Sources */,
+				9612FA491D0421C400AC0AA0 /* XYZTableViewController.m in Sources */,
+				9612FA4C1D043AB300AC0AA0 /* XYZPasswordReVC.m in Sources */,
+				964E4A4D1CFB26720012441C /* XYZItemCell.m in Sources */,
+				968C600D1CF1A2F000664D6E /* XYZCalendarCell.m in Sources */,
+				53F91D8E1DC8C1F500E4D666 /* MBProgressHUD.m in Sources */,
+				96652CC11CE1CBD500426C70 /* XYZPasswordStore.m in Sources */,
+				965BAB9C1CD77FBF00908F11 /* XYZDetail2ViewController.m in Sources */,
+				96EC12DE1CF92E4000585E66 /* XYZTvc.m in Sources */,
+				968C5FFF1CF15D5500664D6E /* UIColor+XYColor.m in Sources */,
+				965BAB701CD7624000908F11 /* main.m in Sources */,
+				965BAB8A1CD766D000908F11 /* XYZItem.m in Sources */,
+				965BAB931CD7760300908F11 /* XYZItemsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965BAB7D1CD7624000908F11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = DairyBox;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965BAB801CD7624000908F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		965BAB811CD7624000908F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965BAB831CD7624000908F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = X63BHG6JTQ;
+				INFOPLIST_FILE = DairyBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "winner1..Q-Q";
+				PRODUCT_NAME = DiaryBox;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		965BAB841CD7624000908F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = X63BHG6JTQ;
+				INFOPLIST_FILE = DairyBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "winner1..Q-Q";
+				PRODUCT_NAME = DiaryBox;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965BAB661CD7624000908F11 /* Build configuration list for PBXProject "DiaryBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965BAB801CD7624000908F11 /* Debug */,
+				965BAB811CD7624000908F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965BAB821CD7624000908F11 /* Build configuration list for PBXNativeTarget "DiaryBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965BAB831CD7624000908F11 /* Debug */,
+				965BAB841CD7624000908F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965BAB631CD7624000908F11 /* Project object */;
+}
