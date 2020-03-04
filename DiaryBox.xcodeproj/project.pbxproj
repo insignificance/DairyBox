@@ -7,85 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53F91D8E1DC8C1F500E4D666 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */; };
-		9612FA491D0421C400AC0AA0 /* XYZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */; };
-		9612FA4C1D043AB300AC0AA0 /* XYZPasswordReVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */; };
-		962615931CF1E4750032B0EE /* XYZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962615921CF1E4750032B0EE /* XYZCalendarViewController.m */; };
-		964E4A4D1CFB26720012441C /* XYZItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 964E4A4C1CFB26720012441C /* XYZItemCell.m */; };
-		964E4A4F1CFB26900012441C /* XYZItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964E4A4E1CFB26900012441C /* XYZItemCell.xib */; };
+		538562B7240F8D6C0085504C /* UIColor+XYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385628D240F8D6C0085504C /* UIColor+XYColor.m */; };
+		538562B8240F8D6C0085504C /* XYZItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385628F240F8D6C0085504C /* XYZItemStore.m */; };
+		538562B9240F8D6C0085504C /* XYZImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53856290240F8D6C0085504C /* XYZImageStore.m */; };
+		538562BA240F8D6C0085504C /* XYZItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53856295240F8D6C0085504C /* XYZItem.m */; };
+		538562BB240F8D6C0085504C /* XYZPasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53856296240F8D6C0085504C /* XYZPasswordStore.m */; };
+		538562BC240F8D6C0085504C /* XYZDiaryPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53856299240F8D6C0085504C /* XYZDiaryPasswordViewController.m */; };
+		538562BD240F8D6C0085504C /* XYZPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385629A240F8D6C0085504C /* XYZPopVC.m */; };
+		538562BE240F8D6C0085504C /* XYZTvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385629C240F8D6C0085504C /* XYZTvc.m */; };
+		538562BF240F8D6C0085504C /* XYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A2240F8D6C0085504C /* XYZDetailViewController.m */; };
+		538562C0240F8D6C0085504C /* XYZDetail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A3240F8D6C0085504C /* XYZDetail2ViewController.m */; };
+		538562C1240F8D6C0085504C /* XYZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A5240F8D6C0085504C /* XYZCalendarViewController.m */; };
+		538562C2240F8D6C0085504C /* XYZItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A6240F8D6C0085504C /* XYZItemsViewController.m */; };
+		538562C3240F8D6C0085504C /* XYZPasswordReVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A7240F8D6C0085504C /* XYZPasswordReVC.m */; };
+		538562C4240F8D6C0085504C /* XYZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562A8240F8D6C0085504C /* XYZTableViewController.m */; };
+		538562C5240F8D6C0085504C /* XYZDiaryPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562AB240F8D6C0085504C /* XYZDiaryPassword.m */; };
+		538562C6240F8D6C0085504C /* XYZCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562AC240F8D6C0085504C /* XYZCalendarPicker.m */; };
+		538562C7240F8D6C0085504C /* XYZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562AD240F8D6C0085504C /* XYZCalendarCell.m */; };
+		538562C8240F8D6C0085504C /* XYZItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562AE240F8D6C0085504C /* XYZItemCell.m */; };
+		538562C9240F8D6C0085504C /* XYZDetail2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538562AF240F8D6C0085504C /* XYZDetail2ViewController.xib */; };
+		538562CA240F8D6C0085504C /* XYZCalendarPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538562B3240F8D6C0085504C /* XYZCalendarPicker.xib */; };
+		538562CB240F8D6C0085504C /* XYZItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538562B4240F8D6C0085504C /* XYZItemCell.xib */; };
+		538562CC240F8D6C0085504C /* XYZDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538562B6240F8D6C0085504C /* XYZDetailViewController.xib */; };
+		538562D4240F8D910085504C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562D2240F8D910085504C /* MBProgressHUD.m */; };
+		538562D7240F8DC20085504C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 538562D6240F8DC20085504C /* AppDelegate.m */; };
 		965BAB701CD7624000908F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB6F1CD7624000908F11 /* main.m */; };
-		965BAB731CD7624000908F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB721CD7624000908F11 /* AppDelegate.m */; };
 		965BAB7B1CD7624000908F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB7A1CD7624000908F11 /* Assets.xcassets */; };
-		965BAB7E1CD7624000908F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */; };
-		965BAB8A1CD766D000908F11 /* XYZItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB891CD766D000908F11 /* XYZItem.m */; };
-		965BAB8D1CD76F0E00908F11 /* XYZItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */; };
-		965BAB901CD7702000908F11 /* XYZImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB8F1CD7702000908F11 /* XYZImageStore.m */; };
-		965BAB931CD7760300908F11 /* XYZItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB921CD7760300908F11 /* XYZItemsViewController.m */; };
-		965BAB971CD7771C00908F11 /* XYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB951CD7771C00908F11 /* XYZDetailViewController.m */; };
-		965BAB981CD7771C00908F11 /* XYZDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */; };
-		965BAB9C1CD77FBF00908F11 /* XYZDetail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */; };
-		965BAB9D1CD77FBF00908F11 /* XYZDetail2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */; };
-		96652CC11CE1CBD500426C70 /* XYZPasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */; };
-		968C5FFF1CF15D5500664D6E /* UIColor+XYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */; };
-		968C60011CF1686700664D6E /* XYZCalendarPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968C60001CF1686700664D6E /* XYZCalendarPicker.xib */; };
-		968C60041CF172C200664D6E /* XYZCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C60031CF172C200664D6E /* XYZCalendarPicker.m */; };
-		968C600D1CF1A2F000664D6E /* XYZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */; };
-		96AAD9B71D03D28700F9D639 /* XYZPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAD9B61D03D28700F9D639 /* XYZPopVC.m */; };
-		96EC12DE1CF92E4000585E66 /* XYZTvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC12DD1CF92E4000585E66 /* XYZTvc.m */; };
-		96EE05091CD87645005CE44E /* XYZDiaryPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EE05081CD87645005CE44E /* XYZDiaryPassword.m */; };
-		96EE050C1CD88D17005CE44E /* XYZDiaryPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53F91D8C1DC8C1EF00E4D666 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		9612FA471D0421C400AC0AA0 /* XYZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTableViewController.h; sourceTree = "<group>"; };
-		9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTableViewController.m; sourceTree = "<group>"; };
-		9612FA4A1D043AB300AC0AA0 /* XYZPasswordReVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordReVC.h; sourceTree = "<group>"; };
-		9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordReVC.m; sourceTree = "<group>"; };
-		962615911CF1E4750032B0EE /* XYZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarViewController.h; sourceTree = "<group>"; };
-		962615921CF1E4750032B0EE /* XYZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarViewController.m; sourceTree = "<group>"; };
-		964E4A4B1CFB26720012441C /* XYZItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemCell.h; sourceTree = "<group>"; };
-		964E4A4C1CFB26720012441C /* XYZItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemCell.m; sourceTree = "<group>"; };
-		964E4A4E1CFB26900012441C /* XYZItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZItemCell.xib; sourceTree = "<group>"; };
+		5385628C240F8D6C0085504C /* UIColor+XYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYColor.h"; sourceTree = "<group>"; };
+		5385628D240F8D6C0085504C /* UIColor+XYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYColor.m"; sourceTree = "<group>"; };
+		5385628F240F8D6C0085504C /* XYZItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemStore.m; sourceTree = "<group>"; };
+		53856290240F8D6C0085504C /* XYZImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZImageStore.m; sourceTree = "<group>"; };
+		53856291240F8D6C0085504C /* XYZPasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordStore.h; sourceTree = "<group>"; };
+		53856292240F8D6C0085504C /* XYZItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItem.h; sourceTree = "<group>"; };
+		53856293240F8D6C0085504C /* XYZImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZImageStore.h; sourceTree = "<group>"; };
+		53856294240F8D6C0085504C /* XYZItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemStore.h; sourceTree = "<group>"; };
+		53856295240F8D6C0085504C /* XYZItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItem.m; sourceTree = "<group>"; };
+		53856296240F8D6C0085504C /* XYZPasswordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordStore.m; sourceTree = "<group>"; };
+		53856298240F8D6C0085504C /* XYZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetailViewController.h; sourceTree = "<group>"; };
+		53856299240F8D6C0085504C /* XYZDiaryPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPasswordViewController.m; sourceTree = "<group>"; };
+		5385629A240F8D6C0085504C /* XYZPopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPopVC.m; sourceTree = "<group>"; };
+		5385629B240F8D6C0085504C /* XYZDetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetail2ViewController.h; sourceTree = "<group>"; };
+		5385629C240F8D6C0085504C /* XYZTvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTvc.m; sourceTree = "<group>"; };
+		5385629D240F8D6C0085504C /* XYZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTableViewController.h; sourceTree = "<group>"; };
+		5385629E240F8D6C0085504C /* XYZPasswordReVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordReVC.h; sourceTree = "<group>"; };
+		5385629F240F8D6C0085504C /* XYZItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemsViewController.h; sourceTree = "<group>"; };
+		538562A0240F8D6C0085504C /* XYZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarViewController.h; sourceTree = "<group>"; };
+		538562A1240F8D6C0085504C /* XYZDiaryPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPasswordViewController.h; sourceTree = "<group>"; };
+		538562A2240F8D6C0085504C /* XYZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetailViewController.m; sourceTree = "<group>"; };
+		538562A3240F8D6C0085504C /* XYZDetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetail2ViewController.m; sourceTree = "<group>"; };
+		538562A4240F8D6C0085504C /* XYZPopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPopVC.h; sourceTree = "<group>"; };
+		538562A5240F8D6C0085504C /* XYZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarViewController.m; sourceTree = "<group>"; };
+		538562A6240F8D6C0085504C /* XYZItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemsViewController.m; sourceTree = "<group>"; };
+		538562A7240F8D6C0085504C /* XYZPasswordReVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordReVC.m; sourceTree = "<group>"; };
+		538562A8240F8D6C0085504C /* XYZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTableViewController.m; sourceTree = "<group>"; };
+		538562A9240F8D6C0085504C /* XYZTvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTvc.h; sourceTree = "<group>"; };
+		538562AB240F8D6C0085504C /* XYZDiaryPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPassword.m; sourceTree = "<group>"; };
+		538562AC240F8D6C0085504C /* XYZCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarPicker.m; sourceTree = "<group>"; };
+		538562AD240F8D6C0085504C /* XYZCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarCell.m; sourceTree = "<group>"; };
+		538562AE240F8D6C0085504C /* XYZItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemCell.m; sourceTree = "<group>"; };
+		538562AF240F8D6C0085504C /* XYZDetail2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetail2ViewController.xib; sourceTree = "<group>"; };
+		538562B0240F8D6C0085504C /* XYZCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarCell.h; sourceTree = "<group>"; };
+		538562B1240F8D6C0085504C /* XYZCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarPicker.h; sourceTree = "<group>"; };
+		538562B2240F8D6C0085504C /* XYZDiaryPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPassword.h; sourceTree = "<group>"; };
+		538562B3240F8D6C0085504C /* XYZCalendarPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZCalendarPicker.xib; sourceTree = "<group>"; };
+		538562B4240F8D6C0085504C /* XYZItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZItemCell.xib; sourceTree = "<group>"; };
+		538562B5240F8D6C0085504C /* XYZItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemCell.h; sourceTree = "<group>"; };
+		538562B6240F8D6C0085504C /* XYZDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetailViewController.xib; sourceTree = "<group>"; };
+		538562D2240F8D910085504C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		538562D3240F8D910085504C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		538562D5240F8DC20085504C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		538562D6240F8DC20085504C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		965BAB6B1CD7624000908F11 /* DiaryBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		965BAB6F1CD7624000908F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		965BAB711CD7624000908F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DairyBox/AppDelegate.h; sourceTree = "<group>"; };
-		965BAB721CD7624000908F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DairyBox/AppDelegate.m; sourceTree = "<group>"; };
 		965BAB7A1CD7624000908F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		965BAB7D1CD7624000908F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965BAB7F1CD7624000908F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		965BAB881CD766D000908F11 /* XYZItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItem.h; sourceTree = "<group>"; };
-		965BAB891CD766D000908F11 /* XYZItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItem.m; sourceTree = "<group>"; };
-		965BAB8B1CD76F0E00908F11 /* XYZItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemStore.h; sourceTree = "<group>"; };
-		965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemStore.m; sourceTree = "<group>"; };
-		965BAB8E1CD7702000908F11 /* XYZImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZImageStore.h; sourceTree = "<group>"; };
-		965BAB8F1CD7702000908F11 /* XYZImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZImageStore.m; sourceTree = "<group>"; };
-		965BAB911CD7760300908F11 /* XYZItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZItemsViewController.h; sourceTree = "<group>"; };
-		965BAB921CD7760300908F11 /* XYZItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZItemsViewController.m; sourceTree = "<group>"; };
-		965BAB941CD7771C00908F11 /* XYZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetailViewController.h; sourceTree = "<group>"; };
-		965BAB951CD7771C00908F11 /* XYZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetailViewController.m; sourceTree = "<group>"; };
-		965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetailViewController.xib; sourceTree = "<group>"; };
-		965BAB991CD77FBF00908F11 /* XYZDetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDetail2ViewController.h; sourceTree = "<group>"; };
-		965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDetail2ViewController.m; sourceTree = "<group>"; };
-		965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZDetail2ViewController.xib; sourceTree = "<group>"; };
-		96652CBF1CE1CBD500426C70 /* XYZPasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPasswordStore.h; sourceTree = "<group>"; };
-		96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPasswordStore.m; sourceTree = "<group>"; };
-		968C5FFD1CF15D5500664D6E /* UIColor+XYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYColor.h"; sourceTree = "<group>"; };
-		968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYColor.m"; sourceTree = "<group>"; };
-		968C60001CF1686700664D6E /* XYZCalendarPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZCalendarPicker.xib; sourceTree = "<group>"; };
-		968C60021CF172C200664D6E /* XYZCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarPicker.h; sourceTree = "<group>"; };
-		968C60031CF172C200664D6E /* XYZCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarPicker.m; sourceTree = "<group>"; };
-		968C600B1CF1A2F000664D6E /* XYZCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCalendarCell.h; sourceTree = "<group>"; };
-		968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCalendarCell.m; sourceTree = "<group>"; };
-		96AAD9B51D03D28700F9D639 /* XYZPopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPopVC.h; sourceTree = "<group>"; };
-		96AAD9B61D03D28700F9D639 /* XYZPopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPopVC.m; sourceTree = "<group>"; };
-		96EC12DC1CF92E4000585E66 /* XYZTvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTvc.h; sourceTree = "<group>"; };
-		96EC12DD1CF92E4000585E66 /* XYZTvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTvc.m; sourceTree = "<group>"; };
-		96EE05071CD87645005CE44E /* XYZDiaryPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPassword.h; sourceTree = "<group>"; };
-		96EE05081CD87645005CE44E /* XYZDiaryPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPassword.m; sourceTree = "<group>"; };
-		96EE050A1CD88D17005CE44E /* XYZDiaryPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDiaryPasswordViewController.h; sourceTree = "<group>"; };
-		96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDiaryPasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,23 +97,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53F91D8B1DC8C1DA00E4D666 /* MBProgressHUD */ = {
+		5385628A240F8D6C0085504C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53F91D8C1DC8C1EF00E4D666 /* MBProgressHUD.h */,
-				53F91D8D1DC8C1F500E4D666 /* MBProgressHUD.m */,
+				538562D1240F8D910085504C /* libs */,
+				5385628B240F8D6C0085504C /* Category */,
+				5385628E240F8D6C0085504C /* Models */,
+				53856297240F8D6C0085504C /* Controllers */,
+				538562AA240F8D6C0085504C /* Views */,
 			);
-			name = MBProgressHUD;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5385628B240F8D6C0085504C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5385628C240F8D6C0085504C /* UIColor+XYColor.h */,
+				5385628D240F8D6C0085504C /* UIColor+XYColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5385628E240F8D6C0085504C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5385628F240F8D6C0085504C /* XYZItemStore.m */,
+				53856290240F8D6C0085504C /* XYZImageStore.m */,
+				53856291240F8D6C0085504C /* XYZPasswordStore.h */,
+				53856292240F8D6C0085504C /* XYZItem.h */,
+				53856293240F8D6C0085504C /* XYZImageStore.h */,
+				53856294240F8D6C0085504C /* XYZItemStore.h */,
+				53856295240F8D6C0085504C /* XYZItem.m */,
+				53856296240F8D6C0085504C /* XYZPasswordStore.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53856297240F8D6C0085504C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53856298240F8D6C0085504C /* XYZDetailViewController.h */,
+				53856299240F8D6C0085504C /* XYZDiaryPasswordViewController.m */,
+				5385629A240F8D6C0085504C /* XYZPopVC.m */,
+				5385629B240F8D6C0085504C /* XYZDetail2ViewController.h */,
+				5385629C240F8D6C0085504C /* XYZTvc.m */,
+				5385629D240F8D6C0085504C /* XYZTableViewController.h */,
+				5385629E240F8D6C0085504C /* XYZPasswordReVC.h */,
+				5385629F240F8D6C0085504C /* XYZItemsViewController.h */,
+				538562A0240F8D6C0085504C /* XYZCalendarViewController.h */,
+				538562A1240F8D6C0085504C /* XYZDiaryPasswordViewController.h */,
+				538562A2240F8D6C0085504C /* XYZDetailViewController.m */,
+				538562A3240F8D6C0085504C /* XYZDetail2ViewController.m */,
+				538562A4240F8D6C0085504C /* XYZPopVC.h */,
+				538562A5240F8D6C0085504C /* XYZCalendarViewController.m */,
+				538562A6240F8D6C0085504C /* XYZItemsViewController.m */,
+				538562A7240F8D6C0085504C /* XYZPasswordReVC.m */,
+				538562A8240F8D6C0085504C /* XYZTableViewController.m */,
+				538562A9240F8D6C0085504C /* XYZTvc.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		538562AA240F8D6C0085504C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				538562AB240F8D6C0085504C /* XYZDiaryPassword.m */,
+				538562AC240F8D6C0085504C /* XYZCalendarPicker.m */,
+				538562AD240F8D6C0085504C /* XYZCalendarCell.m */,
+				538562AE240F8D6C0085504C /* XYZItemCell.m */,
+				538562AF240F8D6C0085504C /* XYZDetail2ViewController.xib */,
+				538562B0240F8D6C0085504C /* XYZCalendarCell.h */,
+				538562B1240F8D6C0085504C /* XYZCalendarPicker.h */,
+				538562B2240F8D6C0085504C /* XYZDiaryPassword.h */,
+				538562B3240F8D6C0085504C /* XYZCalendarPicker.xib */,
+				538562B4240F8D6C0085504C /* XYZItemCell.xib */,
+				538562B5240F8D6C0085504C /* XYZItemCell.h */,
+				538562B6240F8D6C0085504C /* XYZDetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		538562D1240F8D910085504C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				538562D2240F8D910085504C /* MBProgressHUD.m */,
+				538562D3240F8D910085504C /* MBProgressHUD.h */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 		965BAB621CD7624000908F11 = {
 			isa = PBXGroup;
 			children = (
-				53F91D8B1DC8C1DA00E4D666 /* MBProgressHUD */,
-				968C5FF61CF15B2200664D6E /* Class */,
-				965BAB851CD7635000908F11 /* Models */,
-				965BAB861CD7636600908F11 /* Views */,
-				965BAB871CD7637A00908F11 /* Controllers */,
+				5385628A240F8D6C0085504C /* Classes */,
 				965BAB6D1CD7624000908F11 /* DiaryBox */,
 				965BAB6C1CD7624000908F11 /* Products */,
 			);
@@ -132,6 +206,8 @@
 		965BAB6D1CD7624000908F11 /* DiaryBox */ = {
 			isa = PBXGroup;
 			children = (
+				538562D5240F8DC20085504C /* AppDelegate.h */,
+				538562D6240F8DC20085504C /* AppDelegate.m */,
 				965BAB7A1CD7624000908F11 /* Assets.xcassets */,
 				965BAB7F1CD7624000908F11 /* Info.plist */,
 				965BAB6E1CD7624000908F11 /* Supporting Files */,
@@ -146,77 +222,6 @@
 				965BAB6F1CD7624000908F11 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		965BAB851CD7635000908F11 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				965BAB881CD766D000908F11 /* XYZItem.h */,
-				965BAB891CD766D000908F11 /* XYZItem.m */,
-				965BAB8B1CD76F0E00908F11 /* XYZItemStore.h */,
-				965BAB8C1CD76F0E00908F11 /* XYZItemStore.m */,
-				965BAB8E1CD7702000908F11 /* XYZImageStore.h */,
-				965BAB8F1CD7702000908F11 /* XYZImageStore.m */,
-				96652CBF1CE1CBD500426C70 /* XYZPasswordStore.h */,
-				96652CC01CE1CBD500426C70 /* XYZPasswordStore.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		965BAB861CD7636600908F11 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				965BAB961CD7771C00908F11 /* XYZDetailViewController.xib */,
-				965BAB9B1CD77FBF00908F11 /* XYZDetail2ViewController.xib */,
-				965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */,
-				96EE05071CD87645005CE44E /* XYZDiaryPassword.h */,
-				96EE05081CD87645005CE44E /* XYZDiaryPassword.m */,
-				968C60001CF1686700664D6E /* XYZCalendarPicker.xib */,
-				968C60021CF172C200664D6E /* XYZCalendarPicker.h */,
-				968C60031CF172C200664D6E /* XYZCalendarPicker.m */,
-				968C600B1CF1A2F000664D6E /* XYZCalendarCell.h */,
-				968C600C1CF1A2F000664D6E /* XYZCalendarCell.m */,
-				964E4A4B1CFB26720012441C /* XYZItemCell.h */,
-				964E4A4C1CFB26720012441C /* XYZItemCell.m */,
-				964E4A4E1CFB26900012441C /* XYZItemCell.xib */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		965BAB871CD7637A00908F11 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				965BAB711CD7624000908F11 /* AppDelegate.h */,
-				965BAB721CD7624000908F11 /* AppDelegate.m */,
-				965BAB911CD7760300908F11 /* XYZItemsViewController.h */,
-				965BAB921CD7760300908F11 /* XYZItemsViewController.m */,
-				965BAB941CD7771C00908F11 /* XYZDetailViewController.h */,
-				965BAB951CD7771C00908F11 /* XYZDetailViewController.m */,
-				965BAB991CD77FBF00908F11 /* XYZDetail2ViewController.h */,
-				965BAB9A1CD77FBF00908F11 /* XYZDetail2ViewController.m */,
-				96EE050A1CD88D17005CE44E /* XYZDiaryPasswordViewController.h */,
-				96EE050B1CD88D17005CE44E /* XYZDiaryPasswordViewController.m */,
-				962615911CF1E4750032B0EE /* XYZCalendarViewController.h */,
-				962615921CF1E4750032B0EE /* XYZCalendarViewController.m */,
-				96EC12DC1CF92E4000585E66 /* XYZTvc.h */,
-				96EC12DD1CF92E4000585E66 /* XYZTvc.m */,
-				96AAD9B51D03D28700F9D639 /* XYZPopVC.h */,
-				96AAD9B61D03D28700F9D639 /* XYZPopVC.m */,
-				9612FA471D0421C400AC0AA0 /* XYZTableViewController.h */,
-				9612FA481D0421C400AC0AA0 /* XYZTableViewController.m */,
-				9612FA4A1D043AB300AC0AA0 /* XYZPasswordReVC.h */,
-				9612FA4B1D043AB300AC0AA0 /* XYZPasswordReVC.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		968C5FF61CF15B2200664D6E /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				968C5FFD1CF15D5500664D6E /* UIColor+XYColor.h */,
-				968C5FFE1CF15D5500664D6E /* UIColor+XYColor.m */,
-			);
-			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,12 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965BAB9D1CD77FBF00908F11 /* XYZDetail2ViewController.xib in Resources */,
-				965BAB981CD7771C00908F11 /* XYZDetailViewController.xib in Resources */,
-				965BAB7E1CD7624000908F11 /* LaunchScreen.storyboard in Resources */,
+				538562CA240F8D6C0085504C /* XYZCalendarPicker.xib in Resources */,
+				538562C9240F8D6C0085504C /* XYZDetail2ViewController.xib in Resources */,
+				538562CC240F8D6C0085504C /* XYZDetailViewController.xib in Resources */,
+				538562CB240F8D6C0085504C /* XYZItemCell.xib in Resources */,
 				965BAB7B1CD7624000908F11 /* Assets.xcassets in Resources */,
-				964E4A4F1CFB26900012441C /* XYZItemCell.xib in Resources */,
-				968C60011CF1686700664D6E /* XYZCalendarPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,43 +299,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968C60041CF172C200664D6E /* XYZCalendarPicker.m in Sources */,
-				962615931CF1E4750032B0EE /* XYZCalendarViewController.m in Sources */,
-				96EE050C1CD88D17005CE44E /* XYZDiaryPasswordViewController.m in Sources */,
-				965BAB8D1CD76F0E00908F11 /* XYZItemStore.m in Sources */,
-				965BAB731CD7624000908F11 /* AppDelegate.m in Sources */,
-				965BAB901CD7702000908F11 /* XYZImageStore.m in Sources */,
-				96EE05091CD87645005CE44E /* XYZDiaryPassword.m in Sources */,
-				965BAB971CD7771C00908F11 /* XYZDetailViewController.m in Sources */,
-				96AAD9B71D03D28700F9D639 /* XYZPopVC.m in Sources */,
-				9612FA491D0421C400AC0AA0 /* XYZTableViewController.m in Sources */,
-				9612FA4C1D043AB300AC0AA0 /* XYZPasswordReVC.m in Sources */,
-				964E4A4D1CFB26720012441C /* XYZItemCell.m in Sources */,
-				968C600D1CF1A2F000664D6E /* XYZCalendarCell.m in Sources */,
-				53F91D8E1DC8C1F500E4D666 /* MBProgressHUD.m in Sources */,
-				96652CC11CE1CBD500426C70 /* XYZPasswordStore.m in Sources */,
-				965BAB9C1CD77FBF00908F11 /* XYZDetail2ViewController.m in Sources */,
-				96EC12DE1CF92E4000585E66 /* XYZTvc.m in Sources */,
-				968C5FFF1CF15D5500664D6E /* UIColor+XYColor.m in Sources */,
+				538562BE240F8D6C0085504C /* XYZTvc.m in Sources */,
+				538562C8240F8D6C0085504C /* XYZItemCell.m in Sources */,
+				538562C0240F8D6C0085504C /* XYZDetail2ViewController.m in Sources */,
+				538562BD240F8D6C0085504C /* XYZPopVC.m in Sources */,
+				538562B8240F8D6C0085504C /* XYZItemStore.m in Sources */,
+				538562C6240F8D6C0085504C /* XYZCalendarPicker.m in Sources */,
+				538562C5240F8D6C0085504C /* XYZDiaryPassword.m in Sources */,
+				538562D4240F8D910085504C /* MBProgressHUD.m in Sources */,
+				538562C2240F8D6C0085504C /* XYZItemsViewController.m in Sources */,
+				538562B9240F8D6C0085504C /* XYZImageStore.m in Sources */,
+				538562BC240F8D6C0085504C /* XYZDiaryPasswordViewController.m in Sources */,
+				538562C4240F8D6C0085504C /* XYZTableViewController.m in Sources */,
+				538562BF240F8D6C0085504C /* XYZDetailViewController.m in Sources */,
+				538562BB240F8D6C0085504C /* XYZPasswordStore.m in Sources */,
+				538562BA240F8D6C0085504C /* XYZItem.m in Sources */,
+				538562C7240F8D6C0085504C /* XYZCalendarCell.m in Sources */,
+				538562C3240F8D6C0085504C /* XYZPasswordReVC.m in Sources */,
+				538562B7240F8D6C0085504C /* UIColor+XYColor.m in Sources */,
+				538562C1240F8D6C0085504C /* XYZCalendarViewController.m in Sources */,
 				965BAB701CD7624000908F11 /* main.m in Sources */,
-				965BAB8A1CD766D000908F11 /* XYZItem.m in Sources */,
-				965BAB931CD7760300908F11 /* XYZItemsViewController.m in Sources */,
+				538562D7240F8DC20085504C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		965BAB7C1CD7624000908F11 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				965BAB7D1CD7624000908F11 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = DairyBox;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		965BAB801CD7624000908F11 /* Debug */ = {
