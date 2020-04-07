@@ -256,7 +256,7 @@
 				TargetAttributes = {
 					965BAB6A1CD7624000908F11 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = X63BHG6JTQ;
+						DevelopmentTeam = J539EVW3ZD;
 					};
 				};
 			};
@@ -417,11 +417,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = X63BHG6JTQ;
+				DEVELOPMENT_TEAM = J539EVW3ZD;
 				INFOPLIST_FILE = DairyBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "winner1..Q-Q";
+				PRODUCT_BUNDLE_IDENTIFIER = Diary.com;
 				PRODUCT_NAME = DiaryBox;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -432,11 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = X63BHG6JTQ;
+				DEVELOPMENT_TEAM = J539EVW3ZD;
 				INFOPLIST_FILE = DairyBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "winner1..Q-Q";
+				PRODUCT_BUNDLE_IDENTIFIER = Diary.com;
 				PRODUCT_NAME = DiaryBox;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
